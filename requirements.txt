@@ -1,9 +1,12 @@
+jupyterlab
+
 numpy
 pandas
 scipy    
 seaborn
 sklearn
 
+tensorflow
 lightgbm
 xgboost
 catboost
