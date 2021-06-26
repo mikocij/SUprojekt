@@ -6,15 +6,30 @@ Mislav Kocijan
 Ivan Leverić
 Mateo Martinjak 
 ```
-## Create and run virtual env (on Windows)
+## Instructions
+
+1. Create and run virtual env (on Windows)
 
 ```sh
 py -m venv env_ml
 .\env_ml\Scripts\activate
 ```
 
-## Install requirements
+2. Install requirements
 
 ```sh
 pip install -r requirements.txt
+```
+3. Run notebook
+```sh
+jupyter notebook
+```
+4. Deactivate virtual env on the end (optional)
+```sh
+deactivate
+```
+* Small script for auto activate and run notebook (save it as .bat)
+```sh
+@echo off
+cmd /k "cd /d .\env_ml\Scripts\ & activate & cd /d    ../../ & jupyter notebook"
 ```
