@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy    
+seaborn
+sklearn
+
+lightgbm
+xgboost
+catboost
+
+bayesian-optimization
+
+matplotlib
+shap
+squarify
+
+dowhy
